@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import styled from 'styled-components';
 
-import Example from './Example';
+import DownButton from './DownButton';
 
 const Wrapper = styled.div`
   display: flex;
@@ -37,7 +37,11 @@ class App extends Component {
         </header>
 
         <ExampleWrapper>
-          <Example />
+          <DownButton
+            btnColor="lightsteelblue"
+            arrowColor="black"
+            arrowHover="white"
+          />
         </ExampleWrapper>
 
         <IconCreditWrapper>
