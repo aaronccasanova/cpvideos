@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import ComponentPlayground from './ComponentPlayground';
+import ComponentPlayground from './../playground/ComponentPlayground';
 
 const Wrapper = styled.div`
   --card-min-width: calc(250px + (1200 - 250) * (100vw - 320px) / (1500 - 320));

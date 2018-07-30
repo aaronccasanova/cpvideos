@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import MainCard from './components/MainCard';
-import SocialIcons from './components/Social/SocialIcons';
+import MainCard from './components/card/MainCard';
+import SocialIcons from './components/social/SocialIcons';
 
 const Wrapper = styled.div`
   display: flex;
@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   justify-content: space-between;
   min-height: 100vh;
   padding: 20px 20px 60px;
-  background: #f9f9f9;
+  background: #f7f7f7;
 
   h5 {
     text-align: center;
