@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 import MainCard from './components/MainCard';
+import SocialIcons from './components/Social/SocialIcons';
 
 const Wrapper = styled.div`
   display: flex;
@@ -16,6 +17,7 @@ class App extends Component {
     return (
       <Wrapper>
         <MainCard />
+        <SocialIcons />
       </Wrapper>
     );
   }

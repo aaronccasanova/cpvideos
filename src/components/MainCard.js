@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import ComponentPlayground from './ComponentPlayground';
 
 const Wrapper = styled.div`
+  --card-min-width: calc(250px + (1200 - 250) * (100vw - 320px) / (1500 - 320));
   /* ---------For Editing Layout---------- */
   border: 1px solid #e6e6e6;
   /* color: #adadad; */
@@ -13,8 +14,7 @@ const Wrapper = styled.div`
   /* ------------------------------------- */
 
   margin: 0 auto;
-  min-width: calc(250px + (1200 - 250) * (100vw - 320px) / (1500 - 320));
-  min-height: calc(220px + (1200 - 220) * (100vh - 320px) / (1500 - 320));
+  min-width: var(--card-min-width);
 `;
 
 const Heading = styled.h2`
