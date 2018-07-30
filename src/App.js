@@ -7,7 +7,8 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: 60px 20px;
+  padding: 20px 20px 60px;
+  background: #f9f9f9;
 `;
 
 class App extends Component {
