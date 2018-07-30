@@ -7,13 +7,13 @@ const Wrapper = styled.div`
   --card-min-width: calc(250px + (1200 - 250) * (100vw - 320px) / (1500 - 320));
   /* ---------For Editing Layout---------- */
   border: 1px solid #e6e6e6;
-  /* color: #adadad; */
   border-radius: 4px;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.09);
   background: #fafafa;
   /* ------------------------------------- */
 
   margin: 0 auto;
+  margin-top: calc(0px + (80 - 0) * (100vmin - 320px) / (1500 - 320));
   min-width: var(--card-min-width);
 `;
 

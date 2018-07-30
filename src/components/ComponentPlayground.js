@@ -3,7 +3,8 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
   border: 1px solid #e6e6e6;
-  background: #fff;
+  border-radius: 4px;
+  background: #fdfdfd;
   width: 100%;
   min-height: calc(180px + (850 - 180) * (100vh - 320px) / (1500 - 320));
 `;
