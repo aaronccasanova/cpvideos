@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-wrap: wrap; */
+  filter: saturate(80%);
 `;
 
 const IconWrapper = styled.div`

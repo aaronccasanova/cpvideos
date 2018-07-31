@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   justify-content: space-between;
   min-height: 100vh;
   padding: 20px 20px 60px;
-  background: #f7f7f7;
+  background: #f3f3f3;
 
   h5 {
     text-align: center;

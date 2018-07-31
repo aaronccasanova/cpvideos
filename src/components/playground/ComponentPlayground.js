@@ -7,9 +7,9 @@ import Spacer from './margin.png';
 
 const Wrapper = styled.div`
   position: relative;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #e0e0e0;
   border-radius: 4px;
-  background: #fdfdfd;
+  background: #f3f3f3;
   width: 100%;
   min-height: calc(180px + (850 - 180) * (100vh - 320px) / (1500 - 320));
 
@@ -22,7 +22,6 @@ const Wrapper = styled.div`
 
 const IconWrapper = styled.div`
   position: absolute;
-  /* top: -33px; */
   bottom: 100%;
   right: 0;
 
@@ -32,7 +31,6 @@ const IconWrapper = styled.div`
 `;
 
 const ToggleIcon = styled.div`
-  /* transform-style: ${props => (props.center ? null : 'preserve-3d')}; */
   transform: ${props => (props.center ? 'rotateY(180deg)' : 'rotateX(180deg)')};
   transition: all 250ms;
 
