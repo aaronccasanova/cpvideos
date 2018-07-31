@@ -31,7 +31,10 @@ const IconWrapper = styled.div`
 `;
 
 const ToggleIcon = styled.div`
-  transform: ${props => (props.center ? 'rotateY(180deg)' : 'rotateX(180deg)')};
+  transform: ${props =>
+    props.center
+      ? 'rotateY(180deg) translate(0, 0)'
+      : 'rotateX(180deg) translate(0, 2px)'};
   transition: all 250ms;
 
   * {
