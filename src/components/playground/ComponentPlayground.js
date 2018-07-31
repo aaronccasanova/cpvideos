@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import DownButton from './DownButton';
+import Usage from './Usage';
 import Icon from './toggleicon.png';
 import Spacer from './margin.png';
 
@@ -75,11 +75,7 @@ class ComponentPlayground extends Component {
             <img src={Spacer} alt="Toggle Icon" />
           </SpacerIcon>
         </IconWrapper>
-        <DownButton
-          btnColor="lightsteelblue"
-          arrowColor="black"
-          arrowHover="white"
-        />
+        <Usage />
       </Wrapper>
     );
   }
