@@ -78,7 +78,9 @@ class ComponentPlayground extends Component {
             <img src={Spacer} alt="Toggle Icon" />
           </SpacerIcon>
         </IconWrapper>
+        {/* ------ Usage Wrapper ------ */}
         <Usage />
+        {/* ------------------- */}
       </Wrapper>
     );
   }
