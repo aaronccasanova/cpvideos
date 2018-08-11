@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 import Usage from './Usage';
-import Icon from './toggleicon.png';
-import Spacer from './margin.png';
+import Icon from './icons/toggleicon.png';
+import Spacer from './icons/margin.png';
 
 const Wrapper = styled.div`
   position: relative;

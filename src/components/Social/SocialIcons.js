@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import YouTube from './001-youtube.svg';
-import Twitter from './008-twitter.svg';
-import Instagram from './029-instagram.svg';
+import YouTube from './social-icons/001-youtube.svg';
+import Twitter from './social-icons/008-twitter.svg';
+import Instagram from './social-icons/029-instagram.svg';
 
 const Wrapper = styled.div`
   margin-top: 20px;
