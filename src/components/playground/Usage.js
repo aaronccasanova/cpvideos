@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import AniHeaderCard from './Source';
+import Card from './Source';
 
 const Wrapper = styled.div``;
 
@@ -11,10 +11,14 @@ class Usage extends Component {
       <Wrapper>
         {/* --- Place Usage Code Below --- */}
         {/* <LeftyLoosy /> */}
-
-        {/* <AniHeaderCard text="wow" /> */}
-        <AniHeaderCard text="love" />
-        {/* <AniHeaderCard text="hello" /> */}
+        <Card
+          grayscale
+          size="300px"
+          speed="350ms"
+          title="Moose"
+          subtitle="Wazanova"
+          src="/moose.jpg"
+        />
       </Wrapper>
     );
   }
